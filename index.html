@@ -1,0 +1,118 @@
+<div style="max-width:1080px; margin:0 auto; padding:0 clamp(16px, 6vw, 120px); box-sizing:border-box;">
+<div style="background: var(--surface-1); border-radius: 12px; padding: 12px;">
+<h2 class="sr-only">Maquette du salon Discord suggestions-caisses-vote avec un formulaire à menus déroulants conditionnels</h2>
+<div style="display:flex; font-family: var(--font-sans); border-radius:8px; overflow:hidden; border:0.5px solid var(--border); min-height:560px;">
+
+  <div style="width:172px; flex-shrink:0; background:#2b2d31; padding:8px 0;">
+    <div style="padding:10px 12px; color:#f2f3f5; font-size:15px; font-weight:500; border-bottom:1px solid #1f2124; display:flex; align-items:center; justify-content:space-between;">Dynastia <i class="ti ti-chevron-down" style="font-size:14px; color:#b5bac1;"></i></div>
+    <div style="padding:12px 8px 4px; color:#8a8f98; font-size:11px; font-weight:500; letter-spacing:.02em;">— Technique —</div>
+    <div style="margin:1px 8px; padding:6px 8px; border-radius:4px; background:#404249; color:#f2f3f5; font-size:14px; display:flex; align-items:center; gap:6px;"><i class="ti ti-hash" style="font-size:16px; color:#f2f3f5;"></i><span style="font-weight:500;">suggestions-caisses-vote</span></div>
+    <div style="margin:1px 8px; padding:6px 8px; border-radius:4px; color:#949ba4; font-size:14px; display:flex; align-items:center; gap:6px;"><i class="ti ti-hash" style="font-size:16px;"></i>entraide</div>
+    <div style="margin:1px 8px; padding:6px 8px; border-radius:4px; color:#949ba4; font-size:14px; display:flex; align-items:center; gap:6px;"><i class="ti ti-hash" style="font-size:16px;"></i>commandes</div>
+    <div style="padding:14px 8px 4px; color:#8a8f98; font-size:11px; font-weight:500;">— Staff —</div>
+    <div style="margin:1px 8px; padding:6px 8px; border-radius:4px; color:#949ba4; font-size:14px; display:flex; align-items:center; gap:6px;"><i class="ti ti-hash" style="font-size:16px;"></i>tickets-à-traiter</div>
+    <div style="margin:1px 8px; padding:6px 8px; border-radius:4px; color:#949ba4; font-size:14px; display:flex; align-items:center; gap:6px;"><i class="ti ti-hash" style="font-size:16px;"></i>annonces-staff</div>
+  </div>
+
+  <div style="flex:1; min-width:0; background:#313338; display:flex; flex-direction:column;">
+    <div style="height:44px; flex-shrink:0; border-bottom:1px solid #26282c; display:flex; align-items:center; gap:8px; padding:0 14px;"><i class="ti ti-hash" style="font-size:20px; color:#80848e;"></i><span style="color:#f2f3f5; font-weight:500; font-size:15px;">suggestions-caisses-vote</span><span style="color:#4e5058;">|</span><span style="color:#949ba4; font-size:12px;">Suggestions pour les Caisses de vote uniquement.</span></div>
+
+    <div style="flex:1; overflow-y:auto; padding:16px 16px 20px;">
+      <div style="display:flex; gap:12px; align-items:flex-start;">
+        <div style="width:40px; height:40px; border-radius:50%; background:#5865f2; flex-shrink:0; display:flex; align-items:center; justify-content:center;"><i class="ti ti-robot" style="font-size:22px; color:#fff;"></i></div>
+        <div style="flex:1; min-width:0;">
+          <div style="display:flex; align-items:center; gap:6px; margin-bottom:4px;"><span style="color:#f2f3f5; font-size:15px; font-weight:500;">DraftBot</span><span style="background:#5865f2; color:#fff; font-size:10px; padding:1px 4px; border-radius:3px; font-weight:500;">APP</span><span style="color:#949ba4; font-size:11px;">aujourd'hui 20:01</span></div>
+
+          <div style="background:#2b2d31; border-left:4px solid #5865f2; border-radius:0 4px 4px 0; padding:12px 14px;">
+            <div style="color:#f2f3f5; font-size:14px; font-weight:500; margin-bottom:6px;"><i class="ti ti-gift" style="font-size:16px; vertical-align:-2px; color:#f0b232;"></i> Suggestions — Caisses de vote</div>
+            <div style="color:#b5bac1; font-size:13px; line-height:1.5; margin-bottom:14px;">Ce salon sert <span style="color:#f2f3f5; font-weight:500;">uniquement</span> à proposer des idées de gains pour les Caisses de vote. Remplis le formulaire ci-dessous puis valide : un ticket privé s'ouvrira pour échanger avec le staff.</div>
+
+            <div style="color:#b5bac1; font-size:12px; font-weight:500; margin-bottom:5px;">Caisse concernée</div>
+            <div class="dd" data-role="crate" style="margin-bottom:14px;">
+              <button class="dd-btn" style="width:100%; text-align:left; background:#1e1f22; border:1px solid #1e1f22; color:#87898c; border-radius:4px; padding:9px 12px; font-size:13px; display:flex; justify-content:space-between; align-items:center; cursor:pointer;"><span class="dd-label">Choisis une caisse…</span><i class="ti ti-chevron-down" style="font-size:16px;"></i></button>
+              <div class="dd-panel" style="display:none; background:#111214; border:1px solid #232428; border-radius:4px; margin-top:4px; overflow:hidden;">
+                <div class="dd-opt" data-val="commune" style="padding:9px 12px; font-size:13px; color:#dbdee1; cursor:pointer;">🟩 Caisse commune</div>
+                <div class="dd-opt" data-val="rare" style="padding:9px 12px; font-size:13px; color:#dbdee1; cursor:pointer;">🟦 Caisse rare</div>
+                <div class="dd-opt" data-val="legendaire" style="padding:9px 12px; font-size:13px; color:#dbdee1; cursor:pointer;">🟪 Caisse légendaire</div>
+              </div>
+            </div>
+
+            <div style="color:#b5bac1; font-size:12px; font-weight:500; margin-bottom:5px;">Type de suggestion</div>
+            <div class="dd" data-role="type" style="margin-bottom:14px;">
+              <button class="dd-btn" style="width:100%; text-align:left; background:#1e1f22; border:1px solid #1e1f22; color:#87898c; border-radius:4px; padding:9px 12px; font-size:13px; display:flex; justify-content:space-between; align-items:center; cursor:pointer;"><span class="dd-label">Suggestion concernant…</span><i class="ti ti-chevron-down" style="font-size:16px;"></i></button>
+              <div class="dd-panel" style="display:none; background:#111214; border:1px solid #232428; border-radius:4px; margin-top:4px; overflow:hidden;">
+                <div class="dd-opt" data-val="existant" style="padding:9px 12px; font-size:13px; color:#dbdee1; cursor:pointer;">Un gain ayant déjà existé</div>
+                <div class="dd-opt" data-val="nouveau" style="padding:9px 12px; font-size:13px; color:#dbdee1; cursor:pointer;">Une proposition de nouveau(x) gain(s)</div>
+                <div class="dd-opt" data-val="deux" style="padding:9px 12px; font-size:13px; color:#dbdee1; cursor:pointer;">Les deux</div>
+              </div>
+            </div>
+
+            <div id="cond-existant" style="display:none; margin-bottom:14px;">
+              <div style="color:#b5bac1; font-size:12px; font-weight:500; margin-bottom:5px;">Gains déjà parus (choix multiple)</div>
+              <div class="dd" data-role="items">
+                <button class="dd-btn" style="width:100%; text-align:left; background:#1e1f22; border:1px solid #1e1f22; color:#87898c; border-radius:4px; padding:9px 12px; font-size:13px; display:flex; justify-content:space-between; align-items:center; cursor:pointer;"><span class="dd-label">Liste des gains déjà parus dans la caisse</span><i class="ti ti-chevron-down" style="font-size:16px;"></i></button>
+                <div class="dd-panel" id="items-panel" style="display:none; background:#111214; border:1px solid #232428; border-radius:4px; margin-top:4px; max-height:150px; overflow-y:auto;"></div>
+              </div>
+            </div>
+
+            <div id="cond-nouveau" style="display:none; margin-bottom:14px;">
+              <div style="color:#b5bac1; font-size:12px; font-weight:500; margin-bottom:5px;">Détaille le(s) nouveau(x) gain(s)</div>
+              <textarea placeholder="Un item, un gain en argent..." style="width:100%; box-sizing:border-box; background:#1e1f22; border:1px solid #1e1f22; color:#dbdee1; border-radius:4px; padding:9px 12px; font-size:13px; resize:vertical; min-height:56px; font-family:inherit;"></textarea>
+            </div>
+
+            <div style="color:#b5bac1; font-size:12px; font-weight:500; margin-bottom:5px;">Commentaire <span style="color:#87898c; font-weight:400;">(si tu as des détails à partager)</span></div>
+            <textarea style="width:100%; box-sizing:border-box; background:#1e1f22; border:1px solid #1e1f22; color:#dbdee1; border-radius:4px; padding:9px 12px; font-size:13px; resize:vertical; min-height:80px; font-family:inherit; margin-bottom:14px;"></textarea>
+
+            <button id="submit-btn" style="background:#5865f2; color:#fff; border:none; border-radius:4px; padding:10px 16px; font-size:14px; font-weight:500; cursor:pointer;"><i class="ti ti-send" style="font-size:15px; vertical-align:-2px;"></i> Valider la suggestion</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<script>
+(function(){
+  var items = {
+    commune: ["Bloc d'or ×3","Potion (exemple)","Diamant ×16","Redstone ×8","Charbon ×64","Lingot de fer ×16","(à compléter avec les vrais gains)"],
+    rare: ["Élytre","Livre enchanté ×2","Bloc d'or ×3","Spawner (exemple)","(à compléter avec les vrais gains)"],
+    legendaire: ["Pioche en netherite","Œuf d'apparition ×2","Bloc d'or","Tête custom ×5","(à compléter avec les vrais gains)"]
+  };
+  var state = {crate:null, type:null, picked:[]};
+  function closeAll(except){document.querySelectorAll('.dd-panel').forEach(function(p){if(p!==except)p.style.display='none';});}
+  document.querySelectorAll('.dd[data-role="crate"] .dd-opt, .dd[data-role="type"] .dd-opt').forEach(function(o){
+    o.addEventListener('mouseenter',function(){o.style.background='#4752c4';});
+    o.addEventListener('mouseleave',function(){o.style.background='transparent';});
+  });
+  document.querySelectorAll('.dd-btn').forEach(function(b){
+    b.addEventListener('click',function(e){e.stopPropagation();var p=b.nextElementSibling;var open=p.style.display==='block';closeAll();p.style.display=open?'none':'block';});
+  });
+  document.addEventListener('click',function(){closeAll();});
+  document.querySelector('.dd[data-role="crate"]').querySelectorAll('.dd-opt').forEach(function(o){
+    o.addEventListener('click',function(e){e.stopPropagation();state.crate=o.dataset.val;var lbl=document.querySelector('.dd[data-role="crate"] .dd-label');lbl.textContent=o.textContent;lbl.style.color='#dbdee1';closeAll();state.picked=[];buildItems();});
+  });
+  document.querySelector('.dd[data-role="type"]').querySelectorAll('.dd-opt').forEach(function(o){
+    o.addEventListener('click',function(e){e.stopPropagation();state.type=o.dataset.val;var lbl=document.querySelector('.dd[data-role="type"] .dd-label');lbl.textContent=o.textContent;lbl.style.color='#dbdee1';closeAll();refresh();});
+  });
+  function refresh(){
+    document.getElementById('cond-existant').style.display=(state.type==='existant'||state.type==='deux')?'block':'none';
+    document.getElementById('cond-nouveau').style.display=(state.type==='nouveau'||state.type==='deux')?'block':'none';
+  }
+  function buildItems(){
+    var panel=document.getElementById('items-panel');if(!panel)return;panel.innerHTML='';
+    var list=items[state.crate]||[];
+    if(!state.crate){panel.innerHTML='<div style="padding:9px 12px; font-size:12px; color:#87898c;">Choisis d\'abord une caisse.</div>';return;}
+    list.forEach(function(it){
+      var row=document.createElement('div');row.style.cssText='padding:8px 12px; font-size:13px; color:#dbdee1; cursor:pointer; display:flex; align-items:center; gap:8px;';
+      row.innerHTML='<span style="width:14px; height:14px; border:1px solid #4e5058; border-radius:3px; display:inline-flex; align-items:center; justify-content:center; font-size:10px;"></span>'+it;
+      row.addEventListener('click',function(e){e.stopPropagation();var i=state.picked.indexOf(it);var box=row.firstChild;if(i>-1){state.picked.splice(i,1);box.innerHTML='';box.style.background='transparent';}else{state.picked.push(it);box.innerHTML='<i class="ti ti-check"></i>';box.style.background='#5865f2';box.style.borderColor='#5865f2';box.style.color='#fff';}
+        var lbl=document.querySelector('.dd[data-role="items"] .dd-label');lbl.textContent=state.picked.length?state.picked.length+' gain(s) sélectionné(s)':'Liste des gains déjà parus dans la caisse';lbl.style.color=state.picked.length?'#dbdee1':'#87898c';});
+      panel.appendChild(row);
+    });
+  }
+  document.getElementById('submit-btn').addEventListener('click',function(){
+    var b=document.getElementById('submit-btn');b.innerHTML='<i class="ti ti-check" style="font-size:15px; vertical-align:-2px;"></i> Suggestion envoyée (démo)';b.style.background='#248046';
+  });
+})();
+</script>
